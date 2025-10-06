@@ -6,6 +6,9 @@ API REST desenvolvida com Node.js e TypeScript para gerenciar usuários e tarefa
 
 Este projeto implementa uma API REST para gerenciamento de usuários e tarefas, permitindo operações CRUD completas para ambas as entidades, com relacionamento entre elas.
 
+Esse projeto foi desenvolvido para o teste de Estagiario na Empresa Agenus
+Requisitos do teste: https://docs.google.com/document/d/1QQMB9ifiRWMgETel34SNkOcv5UnNoH031Zgwg-Tiwt0/edit?tab=t.0
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Node.js** - Ambiente de execução JavaScript
@@ -46,7 +49,7 @@ Este projeto implementa uma API REST para gerenciamento de usuários e tarefas, 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/agenus.git
+   git clone https://github.com/GustaDev12/Agenus-Teste
    cd agenus
    ```
 
@@ -147,16 +150,12 @@ Este projeto implementa uma API REST para gerenciamento de usuários e tarefas, 
 - `userId` (UUID) - Referência ao usuário proprietário da tarefa
 - `createdAt` (datetime) - Data de criação do registro
 
-## 🧪 Testes
+## 🧪 Iniciar
 
-Para executar os testes da aplicação:
+Para iniciar a aplicação siga os comandos abaixo no terminal:
 
 ```bash
-npm test
+npm run dev
 # ou
-yarn test
+yarn run dev
 ```
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

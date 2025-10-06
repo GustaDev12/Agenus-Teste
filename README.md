@@ -64,7 +64,7 @@ Requisitos do teste: https://docs.google.com/document/d/1QQMB9ifiRWMgETel34SNkOc
 3. Configure as variáveis de ambiente:
    - Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
      ```
-     DATABASE_URL="postgresql://usuario:senha@localhost:5432/agenus?schema=public"
+     DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RfaWQiOjEsInNlY3VyZV9rZXkiOiJza19mRVpXZEVLS1lSQnZDbFdFNUR6ZHYiLCJhcGlfa2V5IjoiMDFLNlhDQkpERkVQUFhLR1c1RzQwNEdRWUIiLCJ0ZW5hbnRfaWQiOiI5YTI3YmQwNWM3MzU5OWYwMjE4ZDY1OWRlZWM2NGVmMGJhNWVjMWExYjkwMjVmYmUwN2Q5Nzk3MmE4OGI5MzcxIiwiaW50ZXJuYWxfc2VjcmV0IjoiYWM4MTM3MTAtMmM3MS00YzA3LWI4YjktOGI1MmUwMzNkY2M4In0.1SZnkOyvEtzQxhMJTbwbFrKTlbgk3kt5d7i-cyk6k4c"
      ```
    - Substitua `usuario`, `senha` e `agenus` pelos seus dados de conexão com o PostgreSQL
 

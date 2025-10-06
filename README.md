@@ -7,6 +7,7 @@ API REST desenvolvida com Node.js e TypeScript para gerenciar usuários e tarefa
 Este projeto implementa uma API REST para gerenciamento de usuários e tarefas, permitindo operações CRUD completas para ambas as entidades, com relacionamento entre elas.
 
 Esse projeto foi desenvolvido para o teste de Estagiario na Empresa Agenus
+
 Requisitos do teste: https://docs.google.com/document/d/1QQMB9ifiRWMgETel34SNkOcv5UnNoH031Zgwg-Tiwt0/edit?tab=t.0
 
 ## 🚀 Tecnologias Utilizadas
